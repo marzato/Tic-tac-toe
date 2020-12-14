@@ -1,6 +1,10 @@
 import React, { useState } from "react";
 
 const Start = () => {
+	const [status, setStatus] = useState({
+		status: "init",
+		winner: null
+	});
 	return (
 		<>
 			<div className="Title">
