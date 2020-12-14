@@ -18,7 +18,7 @@ const Start = () => {
 					<input placeholder="Player 1 username" />
 					<input placeholder="Player 2 username" />
 				</div>
-				<div>
+				<div className="Suits">
 					<span>❌</span>
 					<span>⭕</span>
 				</div>
